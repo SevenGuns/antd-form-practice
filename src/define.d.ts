@@ -1,3 +1,3 @@
-declare class MyClass {
-  name: string = '1'
+declare interface MyClass {
+  name: string
 }
