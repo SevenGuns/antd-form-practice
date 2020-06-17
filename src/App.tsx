@@ -2,6 +2,7 @@ import React, { useState, useCallback } from 'react'
 import TestComp from './components/TestComp'
 import TestComp2 from './components/TestComp2'
 import TestComp3 from './components/TestComp3'
+import TestInput from './components/TestInput'
 import Test5 from './components/Test5'
 import './App.css'
 
@@ -38,6 +39,10 @@ function App() {
         ></div>
       </div>
       <Test5></Test5>
+      <div>
+        <div>TestInput</div>
+        <TestInput></TestInput>
+      </div>
     </div>
   )
 }
